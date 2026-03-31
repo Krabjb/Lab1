@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Lab1</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">My Application</string>
+    <!-- Добавь эти строки: -->
+    <string name="hint_enter_text">Введите текст</string>
+    <string name="default_label">Здесь будет ваш текст</string>
+    <string name="button_action">Изменить текст</string>
 </resources>

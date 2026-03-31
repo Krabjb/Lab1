@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -9,19 +10,24 @@
         android:id="@+id/edit_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите текст" />
+        android:hint="@string/hint_enter_text"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/text_output"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Результат появится здесь" />
+        android:text="@string/default_label"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btn_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Применить" />
+        android:text="@string/button_action" />
+
 </LinearLayout>
